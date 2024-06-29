@@ -1,0 +1,10 @@
+import java.util.*;
+import java.util.stream.IntStream;
+public class JavaBasics
+{
+  public static void main(String[] args) {
+    int arr[] = {55,44,33,22,11};
+    int sum = IntStream.of(arr).sum();
+    System.out.println(sum);
+  }
+}
