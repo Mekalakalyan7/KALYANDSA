@@ -1,0 +1,21 @@
+public class JavaBasics
+{
+
+    public static int getGreatest(int arr[])
+    {
+        int greatestVal = arr[0];
+        for(int i=0;i<arr.length;i++)
+        {
+            if(arr[i]>greatestVal)
+            {
+                greatestVal=arr[i];
+            }
+        }
+            return greatestVal;
+    }
+    public static void main(String[] args) {
+        int arr[] = {5,4,11,3,12};
+       System.out.println(getGreatest(arr));
+       
+    }
+}
