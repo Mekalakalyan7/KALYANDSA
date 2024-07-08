@@ -1,0 +1,22 @@
+import java.util.*;
+public class JavaBasics
+{
+   public static void main(String[] args) {
+      int arr[] = {2,1,7,9,10,18,31,56};
+      int n = arr.length;
+      Arrays.sort(arr);
+      //1st half increasing values
+      for(int i=0;i<n/2;i++)
+      {
+         System.out.print(arr[i] + " ");
+      }
+
+      //2nd half decreasing values
+      for(int i=n-1;i>=n/2;i--)
+      {
+         System.out.print(arr[i] + " ");
+      }
+
+
+   }
+}
